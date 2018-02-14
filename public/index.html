@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MEAN STACK </title>
+    <h1>angularJS,Mongodb,Express.js,Node.js has been used</h1>
+    <h1> I have developed this just to demonstrate the MEAN stack frame work with latest angularJS 1.6 , express.js 4 , node.js 9.4 , moangodb 3.6</h1>
+</head>
+<body ng-app="jetbrains" ng-controller="AppCtrl as app">
+<ul>
+    <li ng-repeat="product in app.products">
+        {{ product.name }}
+    </li>
+</ul>
+
+<input type="text"  ng-model="app.newProduct"/>
+<button ng-click="app.saveProduct(app.newProduct)">SAVE</button>
+
+
+<script src="bower_components/angular/angular.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

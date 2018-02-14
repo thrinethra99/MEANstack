@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="app.js" type="MongoRunConfiguration" factoryName="Mongo">
+    <setting name="path" value="$PROJECT_DIR$/public/app.js" />
+    <setting name="shellParams" value="" />
+    <method />
+  </configuration>
+</component>
